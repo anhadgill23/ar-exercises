@@ -13,4 +13,5 @@ store_2.womens_apparel = true
 store_2.save!
 Store.create(name: "Gastown", annual_revenue: 190000, mens_apparel: true, womens_apparel: false)
 
+
 puts Store.count
